@@ -8,19 +8,16 @@ can improve your skills.
 So you searched the interwebs and found one
 [here](http://codingdojo.org/kata/Bowling/).
 
-It instructed to write tests but you came to learn coding, not testing.
-You decided to write those pesky tests at the end.
-All in all when you're done it might not be a bad idea to make sure it works.
+It instructed to write tests so you did.
+Write a test, make it pass, go on to the next one.
+No time to refactor when the goal is on the horizon.
 
-So you got everything to work with blood, sweat and tears;
-then wrote some tests.
-Some of them failed, you corrected those and were so proud of your work
-that you never ever looked at it again.
+At the end you've added some tests for good measure and called it a day.
 
 ## Stirring up the past
 
 Now that you have solved many more katas (many times)
-and you know about unit testing and clean code principles
+and you know about refactoring and clean code principles
 you decided instead to revisit an old solution of yours
 and see if you can improve on it.
 
@@ -40,6 +37,4 @@ Then refactor your code according to the clean code principles.
 * Always keep the existing tests passing
 * Don't delete any tests
 * Commit early commit often
-* You can add new tests
 * Only refactor code that is covered by tests
-* If there are no tests for a specific case then write one
