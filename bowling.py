@@ -1,9 +1,14 @@
 def score(game):
     result = 0
+    left_of_frame = 0
     for i in range(len(game)):
         result += get_value(game[i])
-        if game[i] == '/':
-            result -= last
+        if get_value(game[i]) == 10:
+            if game[i] == '/':
+                left_of_frame = 0
+                result -= last
+            elif game[i] == 'X':
+                left_of_frame = 0
         last = get_value(game[i])
     return result
 
