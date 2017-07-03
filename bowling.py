@@ -1,5 +1,11 @@
 def score(game):
-    return 30
+    result = 0
+    for i in range(len(game)):
+        result += get_value(game[i])
+        if game[i] == '/':
+            result -= last
+        last = get_value(game[i])
+    return result
 
 def get_value(char):
     if char == '1' or char == '2' or char == '3' or \
