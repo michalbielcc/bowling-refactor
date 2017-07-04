@@ -33,7 +33,7 @@ def get_value(char):
        char == '4' or char == '5' or char == '6' or \
        char == '7' or char == '8' or char == '9':
         return int(char)
-    elif char == 'X':
+    elif char == 'X' or char == 'x':
         return 10
     elif char == '/':
         return 10
